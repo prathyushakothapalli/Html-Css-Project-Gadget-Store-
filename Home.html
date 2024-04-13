@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="menu-bar">
+      <a href="./index.html"><h1 class="logo">Gadgets<span>Store</span></h1></a>
+        <ul>
+          <li><a href="./Home.html">Home</a></li>
+          <li><a href="#">Products</a>
+              <div class="dropdown-menu">
+                  <ul>
+                    <li><a href="./Airpods.html">Airpods</a></li>
+                    <li><a href="./Laptop.html">Laptops</a></li>
+                    <li><a href="./Speakers.html">Speakers</a></li>
+                    <li><a href="./Chargers&cables.html">Charger's & Cables</a></li>
+                    <li><a href="./Mobiles.html">Mobiles</a></li>
+                    <li><a href="./Smartwatches.html">SmartWatches</a></li>
+                  </ul>
+                </div>
+          </li>
+          <li><a href="./bestsellers.html">Best Sellers</a></li>
+          <li><a href="#">Search</a></li>
+          <li><a href="./Cart.html">Add to Cart</a></li>
+          <li><a href="./About us.html">About Us</a>
+          </li>
+          <li><a href="./Contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <br><br><br><br><br>
+<center><h1>Welcome To Gadget Store </h1></center>
+<br>
+<center><p>Discover the magic of technology at your fingertips,where tech dreams come to life.Find the perfect gadget companion for every adventure. </p></center>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="./pic1.jpg" width=1400px height="570px">
+</div>
+<div class="mySlides fade">
+  <img src="./pic2.jpg"  width=1400px height="570px">
+</div>
+<div class="mySlides fade">
+  <img src="./pic3.jpg"  width=1400px height="570px">
+</div>
+<div class="mySlides fade">
+  <img src="./pic4.jpg"  width=1400px height="570px">
+</div>
+<div class="mySlides fade">
+  <img src="./pic5.jpg"  width=1400px height="570px">
+</div>
+</div>
+<br>
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<script>
+let slideIndex = 0;
+showSlides();
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000);
+}
+</script>
+    <div class="main">
+        <br>
+        <div class="one">
+            <div class="a1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/12/IMG-20231214-WA0015-01.webp"height=350, width=350>
+                <br><br>
+                <h1>Apple Ultra 2 Smartwatch</h1><br>
+                <h2>Price:12900 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="a1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/03/airpods-pro-2nd-gen.jpg"height=350, width=350>
+                <br><br>
+                <h1>Airpods Pro 2nd Gen Mastercopy</h1><br>
+                <h2>Price:10099 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+                <br>
+            </div>
+            <div class="a1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/12/leather-cover.webp"height=350, width=350>
+                <br><br>
+                <h1>Leather Case for Airpods Pro 2nd Generation</h1><br>
+                <h2>Price:29000 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="a1">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcT7Uw1YSulPGtywvizz_u4lJxHXrU6aCAshhenoiImFeoKTONrwctHR1srw2sbLNpRjvwPvzrKY9ND_iA6c8DP91hAnedJm7V-zklq5pR_ET7Gepbo6kgot&usqp=CAE"height=350, width=350>
+                <br><br>
+                <h1>Lenovo IdeaPad D330 Intel Celeron N4020</h1><br>
+                <h2>Price:900 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="a1">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSJ9EgZAWb5fXo0omvuXueL9ovK3abI_11_W-tyTVG8V-H5a1uMvjvCzeNSMp6S4XT8FDlTYEbgUnCxMy7443keQx7tCJeEUnv16RzHOFT1t4Nv3_Ns3fil1Q&usqp=CAE"height=350, width=350>
+                <br><br>
+                <h1>TRONICA Series 7.1 Channel Home Theatre System</h1><br>
+                <h2>Price:3000 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="a1">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSEnxZYgDJYEw95LCyrBrE5wLmcs3WXl0PydftWemLPPH7egzPs2dfMxP1HOsF4TGcGSIta8hTxKQEXt-OhpqWK87saDd6vXJyF56YuWQVourkk_f7zElXk&usqp=CAE"height=350, width=350>
+                <br><br>
+                <h1>Original 65W Warp Charger Quick Fast Charging </h1><br>
+                <h2>Price:900 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+        </div><br>
+<div class="two">
+            <div class="b1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/03/airpods-pro-2nd-gen.jpg"height=150, width=150>
+                <br><br>
+                <h1>Airpods Pro 2nd Gen </h1><br>
+                <h2>Price:1500 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="b1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/08/1.jpeg" height=150, width=150>
+                <br><br>
+                <h1>Galaxy Buds 2 Pro
+                </h1><br>
+                <h2>Price:1100 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="b1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2017/12/AIRPODSS.jpg" height=150, width=150>
+                <br><br>
+                <h1>Airpods Pro 3nd Gen </h1><br>
+                <h2>Price:1450 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="b1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2022/07/1-987x1000.webp" height=150, width=150>
+                <br><br>
+                <h1>Apple Watch Series 7</h1><br>
+                <h2>Price:1400 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+            <div class="b1">
+                <img src="https://gadgetsstore.co.in/wp-content/uploads/2023/08/WhatsApp-Image-2023-08-16-at-11.47.27-PM.jpeg" height=150, width=150>
+                <br><br>
+                <h1>Active 2 Smartwatch</h1><br>
+                <h2>Price:1700 </h2><br>
+                <button>Add to cart</button><br>
+                <br>
+            </div>
+ </div>
+ <footer>
+  <div class="footer-content">
+    <p>Contact Us:</p>
+    <p>Email: info@gadgetstore.com</p>
+    <p>Phone: 9112299443</p>
+    <p>Address: GadgetStore, KPHB, Hyderabad</p>
+    <a href="#">Facebook</a>
+    <a href="#">Twitter</a>
+    <a href="#">Instagram</a>
+    <p>Business Hours:</p>
+    <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+    <p>Saturday: 10:00 AM - 4:00 PM</p>
+    <p>Sunday: Closed</p>
+    <p>Map Location:</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d121775.76607000595!2d78.30648513972267!3d17.483979020108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bcb91c13579d387%3A0xf2e4f2f9281873f8!2sK%20P%20H%20B%20Phase%209%2C%20Kukatpally%2C%20Hyderabad%2C%20Telangana%20500085!3m2!1d17.483995999999998!2d78.3888869!5e0!3m2!1sen!2sin!4v1711436592963!5m2!1sen!2sin" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br><br>
+  </div>
+</footer>
+</body>
+</html>
